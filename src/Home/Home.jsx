@@ -33,7 +33,7 @@ export default function Home() {
                     </motion.div>
                 </div>
                 <motion.div
-                    initial={{ y: "-100vh", opacity: 0 }}
+                    initial={{ y: "-n100vh", opacity: 0 }}
                     animate={{
                         y: '0',
                         opacity: 1,
